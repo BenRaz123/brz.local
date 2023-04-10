@@ -1,0 +1,37 @@
+.red { color: #F07178 }
+.green { color: #C3E88E }
+.yellow { color: #FBCA6B }
+.blue { color: #89DCFF }
+.magenta { color: #C792EA }
+.cyan { color: #80CBC4 }
+
+.red:hover { background-color: #F07178 }
+.green:hover { background-color: #C3E88E }
+.yellow:hover { background-color: #FBCA6B }
+.blue:hover { background-color: #89DCFF }
+.magenta:hover { background-color: #C792EA }
+.cyan:hover { background-color: #80CBC4 }
+
+a:hover {
+    text-decoration: none;
+    color: #0E1119;
+}
+
+
+.no-select{ 
+user-select: none;
+opacity: 0.5;
+}
+
+body {
+    padding-left: 1rem;
+    padding-top: 0.75rem;
+}
+
+* {
+    font-family: Geneva, sans-serif;
+    font-weight: normal !important;
+    font-size: 2rem;
+    background-color: #0E1119;
+    color: #A6ACCD; 
+}
